@@ -116,3 +116,5 @@ crashlytics-build.properties
 fabric.properties
 
 .wttd
+.env
+*.sqlite3
