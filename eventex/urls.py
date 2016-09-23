@@ -1,4 +1,3 @@
-from eventex.core import views
 """eventex URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -17,7 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from eventex.core import views
+from eventex.subscriptions.views import subscribe
+
 urlpatterns = [
     url(r'^$', views.home),
+    url(r'^inscricao/$', subscribe),
     url(r'^admin/', admin.site.urls),
 ]
