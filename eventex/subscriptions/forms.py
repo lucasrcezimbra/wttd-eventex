@@ -13,3 +13,8 @@ class SubscriptionForm(forms.Form):
     cpf = forms.CharField(label='CPF', validators=[validate_cpf])
     email = forms.EmailField(label='E-mail')
     phone = forms.CharField(label='Telefone')
+
+    def clean_name(self):
+        name = self.cleaned_data['name']
+        capitalized_words = [w.capitalize() for w in name.split()]
+        return ' '.join(capitalized_words)
