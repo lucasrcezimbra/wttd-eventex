@@ -1,7 +1,6 @@
 from django import forms
 from django.core.exceptions import ValidationError
 from eventex.subscriptions.models import Subscription
-from eventex.subscriptions.validators import validate_cpf
 
 class SubscriptionForm(forms.ModelForm):
     class Meta:
