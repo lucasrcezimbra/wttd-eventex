@@ -3,6 +3,7 @@ from eventex.core.models import Speaker, Contact, Talk, Course
 
 
 class ContactInline(admin.TabularInline):
+    pass
     model = Contact
     extra = 1
 
@@ -22,7 +23,7 @@ class SpeakerModelAdmin(admin.ModelAdmin):
         return '<img width="32px" src="{}" />'.format(obj.photo)
 
     photo_img.allow_tags = True
-    photo_img.short_description = 'photo'
+    photo_img.short_description = 'foto'
 
     def email(self, obj):
         return obj.contact_set.emails().first()

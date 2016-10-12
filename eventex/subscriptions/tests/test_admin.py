@@ -34,3 +34,7 @@ class SubscriptionModelAdminTest(TestCase):
         SubscriptionModelAdmin.message_user = old_message_user
 
         return mock
+
+    def test_is_registered_in_admin(self):
+            self.assertTrue(admin.site.is_registered(Subscription))
+
