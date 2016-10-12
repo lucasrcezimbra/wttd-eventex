@@ -1,6 +1,7 @@
 # Eventex
 [![Build Status](https://travis-ci.org/Lrcezimbra/wttd-eventex.svg?branch=master)](https://travis-ci.org/Lrcezimbra/wttd-eventex)
 [![Code Health](https://landscape.io/github/Lrcezimbra/wttd-eventex/master/landscape.svg?style=flat)](https://landscape.io/github/Lrcezimbra/wttd-eventex/master)
+[![Updates](https://pyup.io/repos/github/lrcezimbra/wttd-eventex/shield.svg)](https://pyup.io/repos/github/lrcezimbra/wttd-eventex/)
 
 Sistema de Eventos encomendado pela Morena.
 
