@@ -9,5 +9,6 @@ urlpatterns = [
         namespace='subscriptions')),
     url(r'^palestras/$', talk_list, name='talk_list'),
     url(r'^palestrantes/(?P<slug>[\w-]+)/$', speaker_detail, name='speaker_detail'),
+    url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
 ]

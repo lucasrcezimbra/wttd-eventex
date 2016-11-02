@@ -34,6 +34,7 @@ DEFAULT_FROM_EMAIL = 'contato@eventex.com.br'
 # Application definition
 
 INSTALLED_APPS = [
+    'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
