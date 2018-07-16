@@ -5,7 +5,7 @@ python-decouple==3.1
 static3==0.7.0
 gunicorn==19.7.1
 psycopg2==2.7.3.2
-django-extensions==1.9.9
+django-extensions==2.1.0
 django-test-without-migrations==0.6
 pytz==2017.3
 django-grappelli==2.10.1
